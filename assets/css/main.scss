@@ -1,0 +1,51 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// Custom tweaks for archive list layout
+.archive__item-body {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.archive__item-teaser {
+  flex: 0 0 96px;
+  display: flex;
+  margin: 0;
+}
+
+.archive__item-teaser img {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+  margin-top: 0.35rem;
+}
+
+.archive__item-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.archive__item-title {
+  margin-top: 0;
+}
+
+// Center the single page title
+.page__title--center {
+  text-align: center;
+}
+
+// Center sidebar content
+.sidebar {
+  text-align: start;
+}
