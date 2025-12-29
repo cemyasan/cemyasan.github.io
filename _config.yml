@@ -21,7 +21,7 @@ title                    : "Cem Yasan | Sr Unity Developer"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Cem Yasan"
-description              : "Senior Unity Game Developer with 10+ years of professional experience specializing in mobile and VR platforms.<br>Proven track record of leading development cycles, including the role of Project Lead for the hybrid-casual RPG Space Heroes: Epic Galaxy RPG.<br>Diverse background ranges from rapid hyper-casual prototyping to developing medical VR therapy tools."
+description              : "Senior Unity Developer with 10+ years in Mobile and VR. Proven Project Lead for hybrid-casual RPG, with diverse experience ranging from rapid prototyping to medical VR simulations."
 url                      : "https://cemyasan.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Cem Yasan"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Senior Unity Game Developer with 10+ years of professional experience specializing in mobile and VR platforms.<br><br>Proven track record of leading development cycles, including the role of Project Lead for the hybrid-casual RPG.<br><br>Diverse background ranges from rapid hyper-casual prototyping for publishers to developing medical and simulation VR applications."
+  bio              : "Senior Unity Developer with 10+ years in Mobile and VR. Proven Project Lead for hybrid-casual RPG, with diverse experience ranging from rapid prototyping to medical VR simulations."
   location         : "Ankara/Türkiye"
   email            : "yasancem@gmail.com"
   links:

@@ -5,7 +5,7 @@ permalink: /about-resume/
 author_profile: true
 ---
 
-## Hi, I'm Cem Yasan
+## Hi, I'm Cem
 
 I am a **Senior Game Developer** with over 10 years of professional experience, primarily focused on Unity3D development for mobile and VR platforms. My expertise covers the full software development lifecycle, from designing rapid prototypes to managing live operations and technical architecture.
 
