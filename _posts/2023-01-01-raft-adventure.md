@@ -41,7 +41,7 @@ Raft Adventure is a mobile idle-arcade game built around interconnected water, r
 - Shader Graph–based water and underwater visuals tied directly to gameplay state (above water vs underwater).
 - Centralized control of visual parameters to ensure readability and consistency across transitions.
 
-<video autoplay playsinline muted loop preload="metadata" width="100%">
+<video autoplay playsinline muted loop preload="metadata" width="80%">
   <source src="{{ '/assets/videos/raft-adventure/core-gameplay.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -51,27 +51,22 @@ Raft Adventure is a mobile idle-arcade game built around interconnected water, r
 - Upgradeable world objects with clear unlock conditions and feedback.
 - Scalable structure for introducing new upgrade paths and progression layers.
 
-<video autoplay playsinline muted loop preload="metadata" width="100%">
-  <source src="{{ '/assets/videos/raft-adventure/progression.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<img src="{{ '/assets/images/raft-adventure/upgradeable.png' | relative_url }}" alt="Interaction system overview" width="70%">
 
 ## Interaction Areas & World Objects
 - Reusable interaction-area system for gated actions and contextual gameplay.
 - Clear ownership boundaries between world objects, interactions, and UI feedback.
 - Defensive handling of runtime changes, disabled objects, and missing references.
 
-<img src="{{ '/assets/images/raft-adventure/interaction.jpg' | relative_url }}" alt="Interaction system overview" width="100%">
+<video autoplay playsinline muted loop preload="metadata" width="100%">
+  <source src="{{ '/assets/videos/raft-adventure/interaction-area.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## UI Systems & Player Feedback
 - Resource and upgrade UI designed for fast iteration.
 - World-space UI patterns for in-world upgrades and status indicators.
 - Consistent feedback systems to clearly communicate player actions and results.
-
-<video autoplay playsinline muted loop preload="metadata" width="100%">
-  <source src="{{ '/assets/videos/raft-adventure/ui.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ## Persistence & Save/Load Safety
 A major focus was ensuring the game could **restore progression and world state reliably** across sessions, even as systems and content evolved.
@@ -101,11 +96,6 @@ To support rapid iteration and reduce technical debt, I built a reusable helper 
 - Camera helpers and follow systems.
 - Pooling patterns for effects and frequently spawned objects.
 - UI helpers for consistent transitions and feedback.
-
-<video autoplay playsinline muted loop preload="metadata" width="100%">
-  <source src="{{ '/assets/videos/raft-adventure/tools.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ## Technical Takeaways
 - Strong separation of systems enables safer long-term iteration.

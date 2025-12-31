@@ -20,7 +20,7 @@ tags:
 
 ## Project Overview
 
-<img src="{{ '/assets/images/space-heroes/image1.jpg' | relative_url }}" alt="Store page screenshot" width="100%">
+<img src="{{ '/assets/images/space-heroes/store-page.jpg' | relative_url }}" alt="Store page screenshot" width="100%">
 
 **Studio:** Udo Games<br>
 **Team Size:** 7 (Developers, Artists, Designers)<br>
@@ -56,8 +56,12 @@ A major part of the project was enabling content production at scale through a c
 - Built runtime systems to support **dynamic region load/unload** based on character position.
 - Implemented a complementary **dungeon editor workflow** for structured encounter content.
 
-<img src="{{ '/assets/images/space-heroes/level-editor.jpg' | relative_url }}" alt="Hex-grid level editor" width="100%">
+<video autoplay playsinline muted loop preload="metadata" width="100%">
+  <source src="{{ '/assets/videos/space-heroes/level-editor.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
+<img src="{{ '/assets/images/space-heroes/dungeon-editor.jpg' | relative_url }}" alt="Meta menus and progression" width="100%">
 
 ## Runtime Streaming & Navigation Safety
 To keep an open-world structure performant on mobile, the world was built to stream content in and out safely.
@@ -67,7 +71,7 @@ To keep an open-world structure performant on mobile, the world was built to str
 - Invested heavily in stability fixes around world streaming edge cases (e.g., missing area references, unloaded objects behavior, and safe defaults).
 
 <video autoplay playsinline muted loop preload="metadata" width="100%">
-  <source src="{{ '/assets/videos/space-heroes/streaming-navmesh.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/videos/space-heroes/navmesh.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -97,7 +101,10 @@ The meta layer was built around stable data and UI-driven flows—because post-l
   - Unlock gating
   - Safe iteration on UI-heavy systems during live updates
 
-<img src="{{ '/assets/images/space-heroes/menus.jpg' | relative_url }}" alt="Meta menus and progression" width="100%">
+<video autoplay playsinline muted loop preload="metadata" width="50%">
+  <source src="{{ '/assets/videos/space-heroes/menus.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 ## Quests, Dungeons & Repeatable Modes
@@ -108,8 +115,8 @@ To support long-term play and updates, the project includes multiple repeatable 
 - Dungeon mode with dedicated scene/data controllers and robust “don’t lose progress/resources” edge-case handling.
 - Challenge modes (e.g., arena-style flows) designed to reuse combat + progression systems.
 
-<video autoplay playsinline muted loop preload="metadata" width="100%">
-  <source src="{{ '/assets/videos/space-heroes/dungeons.mp4' | relative_url }}" type="video/mp4">
+<video autoplay playsinline muted loop preload="metadata" width="50%">
+  <source src="{{ '/assets/videos/space-heroes/quests-dungeons.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -121,10 +128,8 @@ Because this project shipped and then ran through content updates, persistence c
 - Ensured player progression remained valid across updates by treating IDs and data consistency as a production risk area.
 - Shipped targeted fixes for compatibility issues when older saved data needed to remain stable through content and system changes.
 
-<img src="{{ '/assets/images/space-heroes/persistence.jpg' | relative_url }}" alt="Persistence system overview" width="100%">
 
-
-## Client-Side Online Services (No Backend Ownership Claimed)
+## Client-Side Online Services
 The project includes online-facing features; my scope was the **Unity client integration and safety**.
 
 - Implemented and maintained client-side flows for:
@@ -133,17 +138,5 @@ The project includes online-facing features; my scope was the **Unity client int
   - Cloud save integration and recovery flows
 - Focused on production-readiness: fail-safe UI, retries/timeouts, and graceful degradation when services are unavailable.
 
-<img src="{{ '/assets/images/space-heroes/leaderboards.jpg' | relative_url }}" alt="Leaderboards and rewards UI" width="100%">
 
-
-## Selected Anchor Commits (System Ownership Signals)
-A few commits that represent high-impact system work and production responsibility:
-
-- **Level editor foundations and iteration:** editor creation, part 2, auto-recalculate workflows, and large refactors.
-- **NavMesh / area system:** navigation systems tied to world streaming.
-- **Daily/weekly quest systems + onboarding sequence integration:** large cross-system wiring.
-- **Persistent data ID system change + compatibility fix:** explicit focus on backward compatibility and save stability.
-- **Character recruitment and persistent character data:** meta loop foundation + persistence.
-
-(Exact commit IDs and messages can be listed on request; the write-up intentionally focuses on system-level outcomes rather than a raw commit dump.)
 ---

@@ -15,7 +15,7 @@ tags:
   - Optimization
 ---
 
-> This page archives selected projects developed at **Udo Games** where I owned the full technical pipeline—from initial concept to store release. These projects typically operated on tight production cycles, requiring robust code architecture that could be discarded or scaled based on data.
+> This page archives selected hyper/hybrid-casual projects developed where I owned the full technical pipeline—from initial concept to store release. These projects typically operated on tight production cycles, requiring robust code architecture that could be discarded or scaled based on data.
 
 ---
 
