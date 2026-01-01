@@ -21,8 +21,7 @@ You can reach me at [{{ site.author.email }}](mailto:{{ site.author.email }}).
 
 ## Resume
 
-[View the full CV here (PDF - Drive Link)](https://drive.google.com/file/d/1uKHz3_TVbDxv4T6qZJPLl2rrjBfJmhFl/view){: .btn .btn--primary }
-<!-- Update the URL above to match the actual path/name of your CV file -->
+[View the full CV here (PDF)]({{ '/assets/docs/Cem_Yasan_CV.pdf' | relative_url }}){: .btn .btn--primary }
 
 ## Experience Highlights
 
