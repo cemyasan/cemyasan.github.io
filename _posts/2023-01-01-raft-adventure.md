@@ -1,5 +1,5 @@
 ---
-title: "Raft Adventure — Senior Unity Developer"
+title: "Raft Adventure — Senior Unity Dev"
 excerpt: "Built the technical foundation of a idle-arcade hybrid-casual mobile game, establishing core gameplay, progression and production-ready architecture."
 header:
   teaser: /assets/images/raft-adventure/teaser.jpg

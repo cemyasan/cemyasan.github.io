@@ -49,3 +49,30 @@ search: false
 .sidebar {
   text-align: start;
 }
+
+// Custom page title color
+.page__title {
+  color: $primary-color; // or any color you want, e.g., #ff0000
+  
+  a {
+    color: $primary-color; // Make sure the link uses the same color
+    text-decoration: none; // Optional: remove underline
+    
+    &:hover {
+      color: $link-color-hover; // Hover color
+    }
+  }
+}
+
+// Custom heading colors
+h1 {
+  color: $primary-color; // Uses theme primary color
+}
+
+h2 {
+  color: $info-color; // Uses theme info color
+}
+
+h3 {
+  color: $info-color; // Uses theme info color
+}

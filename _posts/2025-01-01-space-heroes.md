@@ -1,6 +1,6 @@
 ---
-title: "Space Heroes: Epic Galaxy RPG — Project Lead"
-excerpt: "Project Development Lead for a content-heavy mobile RPG. Built core gameplay + meta systems, a designer-facing hex-grid level editor, and production-safe persistence for a year of release + live updates."
+title: "Space Heroes — Project Lead"
+excerpt: "Project Dev Lead for a content-heavy mobile RPG. Built core gameplay + meta systems, a designer-facing hex-grid level editor, and production-safe persistence for a year of release + live updates."
 header:
   teaser: /assets/images/space-heroes/teaser.jpg
 categories:
