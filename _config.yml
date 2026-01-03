@@ -17,8 +17,8 @@ minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Cem Yasan | Sr Unity Developer"
-title_separator          : "-"
+title                    : "Cem Yasan"
+title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Cem Yasan"
 description              : "Senior Unity Developer with 10+ years in Mobile and VR. Proven Project Lead for hybrid-casual RPG, with diverse experience ranging from rapid prototyping to medical VR simulations."
