@@ -13,9 +13,7 @@ I am a **Senior Game Developer** with over 10 years of professional experience, 
 
 **VR & Serious Games.** My technical background extends deeply into XR. At DancingMind Therapeutics (Singapore), I worked remotely as a VR Developer, leading the creation of serious games designed to assist patients with dementia and stroke recovery. I also have extensive experience delivering B2B XR projects and commercial VR titles, such as *"Header Goal VR"*, released on Steam and Oculus Store, developed during my time at Codemodeon and Flamingo Game Studio.
 
-**Academic & Educational Contributions.** In addition to my industry work, I served as a Part-time Lecturer at Istanbul Bilgi University, where I taught mobile and VR game development practices to Digital Game Design students. I am currently solidifying my practical experience with academic research, completing my *Master's degree* in *Game Design* with a thesis focused on *playability heuristics in hyper-casual games*.
-
-<!--I have solidified my practical experience with academic research in early 2026, completing my *Master's degree* in *Game Design* with a thesis focused on *playability heuristics in hyper-casual games.*-->
+**Academic & Educational Contributions.** In addition to my industry work, I served as a Part-time Lecturer at Istanbul Bilgi University, where I taught mobile and VR game development practices to Digital Game Design students. I have solidified my practical experience with academic research in 2026, completing my *Master's degree* in *Game Design* with a thesis focused on *playability heuristics in hyper-casual games*.
  
 You can reach me at [{{ site.author.email }}](mailto:{{ site.author.email }}).
 
@@ -42,7 +40,7 @@ You can reach me at [{{ site.author.email }}](mailto:{{ site.author.email }}).
 
 ## Education
 
-* **M.Sc. Game Design** | **Bahçeşehir University** *(Expected Early 2026)*
+* **M.Sc. Game Design** | **Bahçeşehir University** *(2026)*
     * **Thesis:** "Adapting Playability Heuristics for the Constraints of Hyper-Casual Games: A Framework for Market-Focused Game Design"
     * Focus on bridging academic theory with the practical realities of the hyper-casual market.
 
