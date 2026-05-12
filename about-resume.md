@@ -26,7 +26,7 @@ You can reach me at [{{ site.author.email }}](mailto:{{ site.author.email }}).
 * **Sr. Game Developer** | **Udo Games** *(2022 - 2025)*
     Served as the Project Development Lead and Product Manager for the hybrid-casual RPG *"Space Heroes: Epic Galaxy RPG"*. Managed full development cycles and live operations.
 
-* **VR Developer** | **DancingMind Therapeutics** *(2021 - 2023)*
+* **VR Developer** | **DancingMind Therapeutics** *(2021 - 2022)*
     Remote developer for a Singapore-based health-tech company. Led the development of serious games and VR experiences designed to assist patients with dementia and stroke recovery.
 
 * **Partner & Game Developer** | **Soup Games** *(2019 - 2021)*
