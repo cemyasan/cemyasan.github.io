@@ -11,9 +11,11 @@ By downloading, installing, or playing any of our Games, you agree to the collec
 ## 1. Information We Collect
 
 ### A. Information Collected Automatically
-When you play our Games, certain non-personal information is collected automatically from your device to ensure core game functionality, progression tracking, stability, and advertisements:
+When you play our Games, certain pseudonymous device and gameplay information is collected automatically from your device to ensure core game functionality, progression tracking, stability, and advertisements. This information is not linked to your name or any account, but identifiers such as the advertising ID may be considered personal data under laws like the GDPR:
 * **Device Information:** Device model, operating system version, screen resolution, system language, and internet connectivity status.
-* **Device Identifiers:** Mobile Advertising Identifiers (such as Google Advertising ID / AAID on Android or Apple Identifier for Advertisers / IDFA on iOS), and Vendor Identifiers (IDFV).
+* **Device Identifiers:** Mobile Advertising Identifiers (such as Google Advertising ID / AAID on Android or Apple Identifier for Advertisers / IDFA on iOS), Vendor Identifiers (IDFV), and a randomly generated install identifier used by our analytics provider.
+* **IP Address and Approximate Location:** Our advertising and analytics providers receive your IP address as part of normal internet communication and may use it to estimate your general location (for example, country or city). We do not collect precise GPS location.
+* **Ad & Interaction Data:** Ad impressions, clicks, and in-app interactions used to deliver, measure, and prevent fraud in advertising.
 * **Gameplay & Telemetry Data:** Level completion status, game scores, session durations, virtual currency balances, and feature unlock progression.
 * **Crash & Performance Data:** Crash logs, performance metrics, and error stack traces used to diagnose bugs and improve application stability.
 
@@ -54,7 +56,7 @@ Our Games are developed using the **Unity Engine**:
 You have full control over how your data is used for personalized advertising across all our Games:
 * **iOS Devices:** You can allow or deny tracking via the **App Tracking Transparency (ATT)** prompt shown in our Games, or manage this at any time under `Settings > Privacy & Security > Tracking`.
 * **Android Devices:** You can reset or delete your Advertising ID at any time under `Settings > Google > Ads`.
-* **European Users (GDPR/UK):** You can update or revoke your consent preferences at any time via the in-game consent settings dialog.
+* **European Users (GDPR/UK) and other regions where required:** When you first launch a Game, a consent form (provided by Google's User Messaging Platform) asks for your choices about personalized advertising and data use. You can review or change your choices at any time from the **Privacy Options** button in the in-game Settings screen. This button appears only in regions where a consent choice is required.
 
 ---
 
@@ -77,7 +79,10 @@ Depending on your jurisdiction (such as the European Union, United Kingdom, Cali
 * The right to request deletion or correction of your data.
 * The right to opt out of the processing, sale, or sharing of personal data for targeted advertising.
 
-To exercise any of these rights, please contact us at the email address provided below.
+Our Games have no user accounts, and the data described above is tied to device-level identifiers rather than to your identity. For this reason we may not always be able to locate the data that belongs to you. To exercise any of these rights, contact us at the email address below and we will do what we reasonably can to assist, including forwarding your request to our analytics provider where possible. You can also:
+* Reset or delete your advertising ID in your device settings (see Section 4).
+* Clear the Game's storage or uninstall it to remove data stored locally on your device.
+* Manage ad personalization in your Google account's ad settings, and withdraw consent via the in-game Privacy Options button where available.
 
 ---
 
@@ -92,5 +97,5 @@ We may update this Privacy Policy from time to time as we release new games or f
 If you have any questions, feedback, or data privacy requests regarding any of our Games, please contact:
 
 * **Developer:** Cem Yasan
-* **Email:** yasancem@outlook.com
+* **Email:** [yasancem@outlook.com](mailto:yasancem@outlook.com)
 * **Country:** Turkey / Türkiye
