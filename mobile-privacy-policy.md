@@ -44,9 +44,10 @@ If you make in-app purchases (such as virtual items, currency, or removing ads) 
 To provide our Games for free or support ongoing development, we integrate trusted third-party SDKs that may collect and process information subject to their respective privacy policies:
 
 ### A. Advertising Networks
-We use third-party ad networks (primarily **Google AdMob**) to display banner, interstitial, and rewarded video ads. These networks use advertising identifiers to serve contextual or personalized ads and prevent fraudulent impressions:
+We use third-party ad networks to display banner, interstitial, and rewarded video ads. **Google AdMob** is our primary ad platform and uses mediation to request ads from partner networks, including **Liftoff Monetize (Vungle)**. These networks use advertising identifiers to serve contextual or personalized ads and prevent fraudulent impressions:
 * [Google Privacy Policy](https://policies.google.com/privacy)
 * [How Google Uses Information From Apps](https://policies.google.com/technologies/partner-sites)
+* [Liftoff Privacy Policy](https://liftoff.ai/privacy-policy/)
 
 ### B. Game Analytics & Telemetry
 We use analytics platforms (such as **GameAnalytics**) to understand player progression, balance game difficulty, and monitor crashes:
