@@ -92,7 +92,7 @@ Depending on your jurisdiction (such as the European Union, United Kingdom, Cali
 * The right to request deletion or correction of your data.
 * The right to opt out of the processing, sale, or sharing of personal data for targeted advertising.
 
-**Deleting your game account:** In Games with online features, you can delete your game account at any time from the in-game **Settings** screen. This permanently deletes your game account together with its cloud save data and leaderboard entries, and unlinks any Apple or Google Play sign-in. Progress saved on your device is not affected until you uninstall the Game or clear its data.
+**Deleting your game account:** In Games with online features, you can delete your game account at any time from the in-game **Settings** screen. This permanently deletes your game account together with its cloud save data and leaderboard entries, and unlinks any Apple or Google Play sign-in. Progress saved on your device is not affected until you uninstall the Game or clear its data. If you can't use the Game, you can also ask for deletion by email; see **[Delete Your Account](/delete-account/)**.
 
 Other data described above, such as analytics and advertising data, is tied to device-level identifiers rather than to your identity, so we may not always be able to locate the data that belongs to you. To exercise any of these rights, contact us at the email address below and we will do what we reasonably can to assist, including forwarding your request to our service providers where possible. You can also:
 * Reset or delete your advertising ID in your device settings (see Section 4).
