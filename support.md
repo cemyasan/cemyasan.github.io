@@ -50,4 +50,4 @@ Removing ads turns off banners and ads that interrupt play. Optional rewarded ad
 
 ## Privacy
 
-Read the full **[Privacy Policy](/mobile-privacy-policy)**.
+Read the full **[Privacy Policy](/mobile-privacy-policy)** and **[Terms of Service](/terms-of-service/)**.
