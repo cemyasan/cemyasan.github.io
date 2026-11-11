@@ -1,6 +1,6 @@
 # Privacy Policy for Mobile Games & Applications
 
-**Last updated:** October 19, 2026
+**Last updated:** November 11, 2026
 
 This Privacy Policy applies to all mobile applications, games, and related services (collectively, the **"Games"**, **"Apps"**, or **"Services"**) developed and published by **Cem Yasan** (**"we"**, **"us"**, or **"our"**).
 
@@ -13,7 +13,7 @@ By downloading, installing, or playing any of our Games, you agree to the collec
 ### A. Information Collected Automatically
 When you play our Games, certain pseudonymous device and gameplay information is collected automatically from your device to ensure core game functionality, progression tracking, stability, and advertisements. This information is not linked to your real name, but identifiers such as the advertising ID may be considered personal data under laws like the GDPR:
 * **Device Information:** Device model, operating system version, screen resolution, system language, and internet connectivity status.
-* **Device Identifiers:** Mobile Advertising Identifiers (such as Google Advertising ID / AAID on Android or Apple Identifier for Advertisers / IDFA on iOS), Vendor Identifiers (IDFV), and a randomly generated install identifier used by our analytics provider.
+* **Device Identifiers:** Mobile Advertising Identifiers (such as Google Advertising ID / AAID on Android or Apple Identifier for Advertisers / IDFA on iOS), Vendor Identifiers (IDFV), and randomly generated install identifiers used by our analytics and crash reporting providers (such as the GameAnalytics user ID, the Firebase app instance ID, and the Crashlytics installation ID).
 * **IP Address and Approximate Location:** Our advertising and analytics providers receive your IP address as part of normal internet communication and may use it to estimate your general location (for example, country or city). We do not collect precise GPS location.
 * **Ad & Interaction Data:** Ad impressions, clicks, and in-app interactions used to deliver, measure, and prevent fraud in advertising.
 * **Gameplay & Telemetry Data:** Level completion status, game scores, session durations, virtual currency balances, and feature unlock progression.
@@ -25,6 +25,7 @@ Some Games include online features such as cloud save and leaderboards. In those
 * **Linked Apple or Google Play account (optional):** If you choose to sign in with **Apple** or **Google Play Games**, we receive an identifier from that service so that you can use the same game account on other devices. With Sign in with Apple, we do not request your name or email address. With Google Play Games, we use your Play Games player ID.
 * **Cloud Save Data:** Your game progress (for example, levels, virtual currency, and unlocked items) is stored online with your game account so it can be restored.
 * **Leaderboard Data:** Your player name, your score or level, and a country code taken from your device's region setting. **Leaderboards are public**: other players can see your player name, score, and country. Your player name is either one you choose in the Game or a randomly generated one. Please don't use your real name or other personal information as your player name.
+* **Teams (in Games that have them):** If you create or join a team, other players can see the team's name, badge, and member list, including each member's player name, profile avatar and frame, and who leads the team. Team names are chosen by the player who creates the team, so the same rule applies: please don't put personal information in a team name. Teammates can also see the team feed, which records events such as members joining or leaving, requests for help, hearts sent, emotes, and join requests. Your team's name and badge are also shown next to your entries on leaderboards.
 
 ### C. Information We Do NOT Collect
 * We do **not** collect personal identification details such as your real name, physical address, phone number, or email address unless you voluntarily contact us for customer support.
@@ -44,14 +45,22 @@ If you make in-app purchases (such as virtual items, currency, or removing ads) 
 To provide our Games for free or support ongoing development, we integrate trusted third-party SDKs that may collect and process information subject to their respective privacy policies:
 
 ### A. Advertising Networks
-We use third-party ad networks to display banner, interstitial, and rewarded video ads. **Google AdMob** is our primary ad platform and uses mediation to request ads from partner networks, including **Liftoff Monetize (Vungle)**. These networks use advertising identifiers to serve contextual or personalized ads and prevent fraudulent impressions:
+We use third-party ad networks to display banner, interstitial, and rewarded video ads. **Google AdMob** is our primary ad platform and uses mediation to request ads from partner networks, including **Liftoff Monetize (Vungle)** and **Unity Ads**. These networks use advertising identifiers to serve contextual or personalized ads and prevent fraudulent impressions:
 * [Google Privacy Policy](https://policies.google.com/privacy)
 * [How Google Uses Information From Apps](https://policies.google.com/technologies/partner-sites)
 * [Liftoff Privacy Policy](https://liftoff.ai/privacy-policy/)
+* [Unity Ads Privacy Policy](https://unity.com/legal/game-player-and-app-user-privacy-policy)
 
 ### B. Game Analytics & Telemetry
-We use analytics platforms (such as **GameAnalytics**) to understand player progression, balance game difficulty, and monitor crashes:
+We use analytics and crash reporting services to understand player progression, balance game difficulty, measure the performance of our ads, and fix crashes:
+* **GameAnalytics**, for gameplay analytics.
+* **Google Analytics for Firebase**, for gameplay and app usage analytics. Because Firebase is linked with Google AdMob (and with Google Ads when we run ad campaigns), this data is also used by Google to measure ad performance.
+* **Firebase Crashlytics**, for crash reports, including the device state and the recent in-game events (such as the current level) leading up to a crash.
+
+Privacy policies:
 * [GameAnalytics Privacy Policy](https://gameanalytics.com/privacy)
+* [Firebase Privacy and Security](https://firebase.google.com/support/privacy)
+* [Google Privacy Policy](https://policies.google.com/privacy)
 
 ### C. Game Engine & Online Services
 Our Games are developed using the **Unity Engine**. Games with online features use **Unity Gaming Services** (Authentication, Cloud Save, Leaderboards, and Cloud Code) to store your game account, progress, and leaderboard entries:
@@ -69,7 +78,7 @@ If you choose to sign in with Apple or Google Play Games, that service handles t
 You have full control over how your data is used for personalized advertising across all our Games:
 * **iOS Devices:** You can allow or deny tracking via the **App Tracking Transparency (ATT)** prompt shown in our Games, or manage this at any time under `Settings > Privacy & Security > Tracking`.
 * **Android Devices:** You can reset or delete your Advertising ID at any time under `Settings > Google > Ads`.
-* **European Users (GDPR/UK) and other regions where required:** When you first launch a Game, a consent form (provided by Google's User Messaging Platform) asks for your choices about personalized advertising and data use. You can review or change your choices at any time from the **Privacy Options** button in the in-game Settings screen. This button appears only in regions where a consent choice is required.
+* **European Users (GDPR/UK) and other regions where required:** When you first launch a Game, a consent form (provided by Google's User Messaging Platform) asks for your choices about personalized advertising and data use. These choices control advertising and analytics alike: until you answer, and for any purpose you decline, our analytics services do not store identifiers on your device for that purpose. You can review or change your choices at any time from the **Privacy Options** button in the in-game Settings screen. This button appears only in regions where a consent choice is required.
 
 ---
 
@@ -92,12 +101,17 @@ Depending on your jurisdiction (such as the European Union, United Kingdom, Cali
 * The right to request deletion or correction of your data.
 * The right to opt out of the processing, sale, or sharing of personal data for targeted advertising.
 
-**Deleting your game account:** In Games with online features, you can delete your game account at any time from the in-game **Settings** screen. This permanently deletes your game account together with its cloud save data and leaderboard entries, and unlinks any Apple or Google Play sign-in. Progress saved on your device is not affected until you uninstall the Game or clear its data. If you can't use the Game, you can also ask for deletion by email; see **[Delete Your Account](/delete-account/)**.
+**Deleting your game account:** In Games with online features, you can delete your game account at any time from the in-game **Settings** screen. This permanently deletes your game account together with its cloud save data and leaderboard entries, and unlinks any Apple or Google Play sign-in. If you were in a team, you are removed from it first, though your player name may remain in some older entries of that team's feed until they are replaced by newer ones (the feed keeps the last 50 events). Progress saved on your device is not affected until you uninstall the Game or clear its data. If you can't use the Game, you can also ask for deletion by email; see **[Delete Your Account](/delete-account/)**.
 
 Other data described above, such as analytics and advertising data, is tied to device-level identifiers rather than to your identity, so we may not always be able to locate the data that belongs to you. To exercise any of these rights, contact us at the email address below and we will do what we reasonably can to assist, including forwarding your request to our service providers where possible. You can also:
 * Reset or delete your advertising ID in your device settings (see Section 4).
 * Clear the Game's storage or uninstall it to remove data stored locally on your device.
 * Manage ad personalization in your Google account's ad settings, and withdraw consent via the in-game Privacy Options button where available.
+
+**U.S. residents (including California):** We do not sell your personal information for money. However, sharing advertising identifiers and related data with our ad networks to show personalized ads may count as "sharing" for cross-context behavioral advertising under California law and similar state laws. To opt out:
+* **Android:** Delete your Advertising ID under `Settings > Google > Ads` (or `Settings > Privacy > Ads`, depending on your device). Our ad networks then cannot use it to personalize ads.
+* **iOS:** Deny the App Tracking Transparency prompt, or turn off tracking for the Game under `Settings > Privacy & Security > Tracking`.
+* **Email:** Ask us at the address below to opt you out. We will apply your request as far as we can and forward it to our advertising partners.
 
 ---
 
