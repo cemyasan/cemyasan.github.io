@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Word Sort - Block Puzzle</title>
+<meta name="description" content="Download Word Sort - Block Puzzle on the App Store or Google Play.">
+<meta property="og:title" content="Word Sort - Block Puzzle">
+<meta property="og:description" content="Sort words, clear blocks. Free on iOS and Android.">
+<meta property="og:image" content="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7c/41/38/7c413828-f648-faf3-543b-a45c37806ff8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg">
+<meta property="og:url" content="https://cemyasan.github.io/wordsort/">
+<meta name="robots" content="noindex">
+<script>
+  // Smart store link: iOS -> App Store, Android -> Google Play, else show both.
+  // Optional ?src=<channel> is passed on as campaign data (Play referrer / App Store "ct").
+  (function () {
+    var IOS = "https://apps.apple.com/app/id6819657088";
+    var PLAY = "https://play.google.com/store/apps/details?id=com.cemyasan.wordblockpuzzle";
+
+    var src = "";
+    try { src = new URLSearchParams(location.search).get("src") || ""; } catch (e) {}
+    src = src.replace(/[^A-Za-z0-9_\-]/g, "").slice(0, 40);
+
+    var ios = IOS + (src ? "?ct=" + src : "");
+    var play = PLAY + (src
+      ? "&referrer=" + encodeURIComponent("utm_source=" + src + "&utm_medium=smartlink")
+      : "");
+
+    var ua = navigator.userAgent || "";
+    var isIOS = /iPhone|iPad|iPod/i.test(ua) ||
+                (/Macintosh/i.test(ua) && navigator.maxTouchPoints > 1); // iPadOS reports as Mac
+    var isAndroid = /Android/i.test(ua);
+
+    if (isIOS) { location.replace(ios); return; }
+    if (isAndroid) { location.replace(play); return; }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      document.getElementById("ios").href = ios;
+      document.getElementById("play").href = play;
+    });
+  })();
+</script>
+<style>
+  :root { --bg: #f6f3ee; --fg: #2b2622; --muted: #6f665e; --card: #ffffff; --btn: #2b2622; --btnfg: #ffffff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1b1916; --fg: #f2ede6; --muted: #a59c92; --card: #26231f; --btn: #f2ede6; --btnfg: #1b1916; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 16px;
+         background: var(--bg); color: var(--fg);
+         font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  .card { background: var(--card); border-radius: 24px; padding: 32px 24px; max-width: 360px; width: 100%;
+          text-align: center; box-shadow: 0 8px 30px rgba(0,0,0,.08); }
+  img { width: 112px; height: 112px; border-radius: 26px; }
+  h1 { font-size: 22px; margin: 16px 0 4px; }
+  p { margin: 0 0 24px; color: var(--muted); }
+  a.btn { display: block; padding: 14px; margin-top: 10px; border-radius: 14px; text-decoration: none;
+          background: var(--btn); color: var(--btnfg); font-weight: 600; }
+</style>
+</head>
+<body>
+  <main class="card">
+    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7c/41/38/7c413828-f648-faf3-543b-a45c37806ff8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg" alt="Word Sort - Block Puzzle icon">
+    <h1>Word Sort - Block Puzzle</h1>
+    <p>Free on iPhone, iPad and Android</p>
+    <a class="btn" id="ios" href="https://apps.apple.com/app/id6819657088">Download on the App Store</a>
+    <a class="btn" id="play" href="https://play.google.com/store/apps/details?id=com.cemyasan.wordblockpuzzle">Get it on Google Play</a>
+  </main>
+</body>
+</html>
