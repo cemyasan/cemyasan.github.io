@@ -1,6 +1,6 @@
 # Privacy Policy for Mobile Games & Applications
 
-**Last updated:** November 11, 2026
+**Last updated:** November 18, 2026
 
 This Privacy Policy applies to all mobile applications, games, and related services (collectively, the **"Games"**, **"Apps"**, or **"Services"**) developed and published by **Cem Yasan** (**"we"**, **"us"**, or **"our"**).
 
@@ -16,6 +16,7 @@ When you play our Games, certain pseudonymous device and gameplay information is
 * **Device Identifiers:** Mobile Advertising Identifiers (such as Google Advertising ID / AAID on Android or Apple Identifier for Advertisers / IDFA on iOS), Vendor Identifiers (IDFV), and randomly generated install identifiers used by our analytics and crash reporting providers (such as the GameAnalytics user ID, the Firebase app instance ID, and the Crashlytics installation ID).
 * **IP Address and Approximate Location:** Our advertising and analytics providers receive your IP address as part of normal internet communication and may use it to estimate your general location (for example, country or city). We do not collect precise GPS location.
 * **Ad & Interaction Data:** Ad impressions, clicks, and in-app interactions used to deliver, measure, and prevent fraud in advertising.
+* **Ad Campaign Measurement Data:** When we advertise our Games on other platforms, events such as the Game being installed and opened, levels completed, purchase amounts, and ad revenue, used to measure and improve those ad campaigns (see Section 3.E).
 * **Gameplay & Telemetry Data:** Level completion status, game scores, session durations, virtual currency balances, and feature unlock progression.
 * **Crash & Performance Data:** Crash logs, performance metrics, and error stack traces used to diagnose bugs and improve application stability.
 
@@ -71,6 +72,16 @@ If you choose to sign in with Apple or Google Play Games, that service handles t
 * [Apple Privacy Policy](https://www.apple.com/legal/privacy/)
 * [Google Privacy Policy](https://policies.google.com/privacy)
 
+### E. Advertising Our Games (Ad Campaign Measurement)
+We advertise our Games on platforms such as **Google** (Google Ads) and **Meta** (Facebook, Instagram, Messenger, and Meta Audience Network). To learn which ads lead to installs and engaged players, and to show our ads to people more likely to enjoy our Games, our Games include the **Meta SDK** (Facebook SDK for Unity), and use Google Analytics for Firebase as described in Section 3.B.
+
+The Meta SDK sends Meta the following "app events": the Game being installed and opened, levels completed, in-app purchase amounts and currency, and ad revenue earned from ads shown in the Game. These events are sent together with device information (such as device model, operating system, and language), your advertising ID, and your IP address. Meta uses this data to attribute installs to its ads, to measure and optimize our ad campaigns, and as described in Meta's own privacy policy. If you use Facebook or Instagram, Meta may link this activity to your Meta account. We do **not** use Facebook Login, and we do not send Meta your name, email address, or your game account's player ID.
+
+**Where consent is required,** such as in the European Economic Area, the United Kingdom, and Switzerland, the Meta SDK does not send these events or collect your advertising ID.
+
+* [Meta Privacy Policy](https://www.facebook.com/privacy/policy/)
+* [Google Privacy Policy](https://policies.google.com/privacy)
+
 ---
 
 ## 4. Advertising Choices and Opt-Outs
@@ -79,6 +90,7 @@ You have full control over how your data is used for personalized advertising ac
 * **iOS Devices:** You can allow or deny tracking via the **App Tracking Transparency (ATT)** prompt shown in our Games, or manage this at any time under `Settings > Privacy & Security > Tracking`.
 * **Android Devices:** You can reset or delete your Advertising ID at any time under `Settings > Google > Ads`.
 * **European Users (GDPR/UK) and other regions where required:** When you first launch a Game, a consent form (provided by Google's User Messaging Platform) asks for your choices about personalized advertising and data use. These choices control advertising and analytics alike: until you answer, and for any purpose you decline, our analytics services do not store identifiers on your device for that purpose. You can review or change your choices at any time from the **Privacy Options** button in the in-game Settings screen. This button appears only in regions where a consent choice is required.
+* **Meta (Facebook / Instagram) users:** You can see and disconnect activity that apps share with Meta, and control how Meta uses it for ads, in Meta's **Accounts Center** under **Your activity off Meta technologies**, and in your **Ad preferences** on Facebook or Instagram. Resetting or deleting your advertising ID (see above) also stops it from being used to link Game activity to your device.
 
 ---
 
@@ -108,10 +120,12 @@ Other data described above, such as analytics and advertising data, is tied to d
 * Clear the Game's storage or uninstall it to remove data stored locally on your device.
 * Manage ad personalization in your Google account's ad settings, and withdraw consent via the in-game Privacy Options button where available.
 
-**U.S. residents (including California):** We do not sell your personal information for money. However, sharing advertising identifiers and related data with our ad networks to show personalized ads may count as "sharing" for cross-context behavioral advertising under California law and similar state laws. To opt out:
+**U.S. residents (including California):** We do not sell your personal information for money. However, sharing advertising identifiers and related data with our ad networks to show personalized ads, and with Meta and Google to measure our own ad campaigns (Section 3.E), may count as "sharing" for cross-context behavioral advertising under California law and similar state laws. To opt out:
 * **Android:** Delete your Advertising ID under `Settings > Google > Ads` (or `Settings > Privacy > Ads`, depending on your device). Our ad networks then cannot use it to personalize ads.
 * **iOS:** Deny the App Tracking Transparency prompt, or turn off tracking for the Game under `Settings > Privacy & Security > Tracking`.
 * **Email:** Ask us at the address below to opt you out. We will apply your request as far as we can and forward it to our advertising partners.
+
+**Deleting data shared with Meta:** Because the Meta SDK identifies your device rather than you, we can't look up or delete what Meta holds about a specific player. To remove it, disconnect the Game's activity from your Meta account in Meta's Accounts Center (see Section 4), reset or delete your advertising ID, and use Meta's own tools to access or delete your information (in Accounts Center, under **Your information and permissions**). You can also contact us and we'll help where we can.
 
 ---
 

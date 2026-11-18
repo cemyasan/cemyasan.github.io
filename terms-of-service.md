@@ -5,7 +5,7 @@ permalink: /terms-of-service/
 author_profile: true
 ---
 
-**Last updated:** November 5, 2026
+**Last updated:** November 18, 2026
 
 These Terms of Service (the **"Terms"**) apply to all mobile games, applications, and related services (collectively, the **"Games"**) developed and published by **Cem Yasan** (**"we"**, **"us"**, or **"our"**). By downloading, installing, or playing any of our Games, you agree to these Terms. If you don't agree, please don't use the Games.
 
@@ -58,7 +58,11 @@ Nothing in this section limits any rights you have under applicable consumer pro
 
 ## 5. Advertising
 
-The Games may show ads provided by third-party networks, including optional rewarded ads that you can choose to watch for an in-game reward. How your data is used for advertising, and how to change your choices, is described in our **[Privacy Policy](/mobile-privacy-policy)**.
+The Games may show ads provided by third-party networks, including optional rewarded ads that you can choose to watch for an in-game reward.
+
+We also advertise the Games on other platforms, such as Google and Meta (Facebook and Instagram). To measure those ad campaigns, the Games share limited usage events, such as installs, level completions, and purchase amounts, with those platforms through their SDKs. Using Facebook, Instagram, or other advertising platforms is subject to those platforms' own terms.
+
+How your data is used for advertising and ad measurement, and how to change your choices, is described in our **[Privacy Policy](/mobile-privacy-policy)**.
 
 ---
 

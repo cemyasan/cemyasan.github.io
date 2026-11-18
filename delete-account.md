@@ -41,6 +41,7 @@ I'll confirm by email once your account is deleted, within **30 days** of your r
 * **Progress saved on your device.** This stays until you uninstall the game or clear its data.
 * **Purchase records.** Purchases are processed and kept by Google Play or the App Store under their own policies. Deleting your account doesn't refund purchases.
 * **Analytics and advertising data.** This data is tied to device identifiers rather than to your game account, so it isn't removed with your account. Our analytics and advertising partners keep it for a limited period under their own retention policies. See the **[Privacy Policy](/mobile-privacy-policy)** for details and for how to reset your advertising ID.
+* **Data shared with Meta (Facebook / Instagram).** Ad measurement events sent by the Meta SDK are held by Meta, not by us. To remove them, disconnect the game's activity in Meta's **Accounts Center → Your activity off Meta technologies**, reset your advertising ID, or use Meta's access and deletion tools in Accounts Center under **Your information and permissions**. See Section 3.E of the Privacy Policy.
 
 If you signed in with Apple, you can also stop using Sign in with Apple for the game in your iPhone's **Settings → [your name] → Sign-In & Security → Sign in with Apple**.
 
